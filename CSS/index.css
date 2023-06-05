@@ -1,0 +1,317 @@
+/* 
+Paleta de colores 
+  Azul claro -> lightskyblue
+  Azul oscuro -> HEX #2779a7
+  Negro -> HEX #0F0F0F
+  Blanco -> HEX #FFFFFF
+  Naranja -> HEX #ec7c3a
+*/
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  /* color: black; */
+}
+
+.nav-inicio:hover{ /* ":hover" añade estilos al pasar el cursor sobre el elemento de la lista */
+  background-color: #0d609b;
+  transition: 0.5s; /* "transition: 0.5s;" hará que la tranción dure medio segundo */
+}
+
+body{
+  background-color: #0F0F0F;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 90px;
+}
+
+.header {
+  background-color: #2779a7;
+  height: 80px;
+  position: fixed; /* posición fija en la parte superior de la web */
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: 992px; /* Por que 992px? Porque lo recomienda bootstrap en el apartado de "available breakpoints" */
+}
+
+.nav-link{
+  text-decoration: none;
+  color: black;
+}
+
+.nav-menu{
+  display: flex;
+  margin-right: 40px; /* Espacio que dejaremos desde el margen izqueirdo */
+  list-style: none;
+  font-weight: bold;
+}
+
+.nav-menu-item {
+  font-size: 18px;
+  margin: 0 10px; /* Arriba y abajo (0) | Derecha e izquieda (10) */
+  line-height: 80px; /* line-height sirve para subir o bajar un elemento dento de una contenedor, la altura del contenedor nos servirá para centrar el elemento */
+  text-transform: uppercase; /* text-transform transforma o texto, en este caso, cambia todo a maiusculas */
+  width: max-content; /* "width: max-content;" lo utilizaremos para evitar que nos corte el texto del apartado "sobre mi" al minizar la ventana */
+}
+
+.nav-menu-link:hover{ 
+  background-color: #0d609b;
+  opacity: 1; /* Opacity sirve para añadir transparencia a un elemento, os valores van do 0 al 1 */
+  transition: 0.5s;
+}
+
+.nav-menu-link{
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.logo{
+  color: black;
+  font-size: 30px;
+  font-weight: bold; /* font-weight se usa para especificar el peso de la fuente. Bold = negrita | ligth = delgada | normal = normal */
+  padding: 0 40px;
+  line-height: 80px;
+}
+
+.nav-logo{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0px 30px;
+  line-height: 80px;
+  margin-left: 10px;
+}
+
+.nav-logo:hover{
+  background-color: #0d609b;
+  border-radius: 5px;
+}
+
+.nav-desplegable{/* <- barras menú desplegable */
+  color: black;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 80px; /* Cudando pasemos a formato telefono reducir a 60px */
+  cursor: pointer;
+
+  display: none; /* Para que no se vexa en dispositivos de escritorio */
+}
+
+/* ------ footer ------- */
+.footer{
+  background-color: #2779a7;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-footer{
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* .social-icon-container, */
+.footer-menu-contanier{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.social-icon{
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  color: black;
+  border: 2px solid black;
+  background-position: center;
+  text-decoration: none;
+  padding: 5px;
+  margin: 1rem;
+}
+
+.social-icon:hover{
+  background-color: lightskyblue;
+}
+
+.footer-menu-contanier{
+  list-style: none;
+  color: black;
+  font-size: 18px;
+}
+
+.menu-item{
+  margin: 1rem 1.5rem;
+  cursor: pointer;
+  list-style: none;
+  /* opacity: 0.5; */
+}
+
+.menu-item:hover{
+  opacity: 1;
+}
+
+/* ----- article index -------- */
+#fichero-xml{
+  background-color: lightskyblue;
+  border: solid 1px black;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+#ocultarMostrarXML{
+  background-color: lightskyblue;
+  border: solid 1px black;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+#contenedor{
+  color: whitesmoke;
+  margin: 5px;
+  margin-left: 10px;
+}
+
+.article-index{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 140px 1fr 1fr;
+}
+
+.introduccion{
+  grid-column-start: 1;
+  grid-row: 1/1;
+}
+
+.sistemas_operativos{
+  grid-column-start: 1;
+  grid-row: 2/3;
+  text-align: center;
+}
+
+h1{
+  background-color: teal;
+  color: black;
+  border-radius: 5px;
+  text-align: center;/* text-align: center; -> para centrar o texto dunha caixa a nivel de liña */
+  padding: 5px 0;
+  margin: 10px;
+}
+
+/* -------- paxina introducción -------- */
+.texto_introduccion{
+  grid-column-start: 1;
+  grid-row: 1/1;
+  text-align: center;
+  margin: 10px;
+}
+
+/* -------- paxina Sistemas Operativos -------- */
+.article-sistemas{
+  display: grid;
+  grid-template-columns: 450px 450px;
+  grid-template-rows: 200px 200px;
+}
+
+.img_lista_sistemas{
+  border-radius: 20px;
+  height: 70%;
+  width: 50%;
+}
+
+/* paxina Programación */
+.article-programacion{
+  display: grid;
+  grid-template-columns: 450px 450px;
+  grid-template-rows: 200px 200px;
+}
+
+/* paxina Lenguaje de marcas */
+.article-lenguaje_marcas{
+  display: grid;
+  grid-template-columns: 450px 450px;
+  grid-template-rows: 200px 200px;
+}
+
+/* -------------------------- Formato para moviles e tablets --------------------------------------*/
+
+@media (max-width: 650px){
+  body{
+    background-color: #0F0F0F;
+    padding-top: 70px;
+  }
+
+  .header{
+    height: 60px;
+  }
+
+  .logo{
+    font-size: 25px;
+    padding: 0 20px;/* Tamaño padding esquerda e dereita */
+    line-height: 60px;
+  }
+
+  .nav-logo{
+    font-size: 25px;
+    padding: 0 15px;
+    line-height: 60px;
+    margin-left: 5px;
+  }
+
+  .nav-menu {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    /* color: rgb(255, 1, 1); */
+    background-color: #0F0F0F;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    height: calc(100% - 60px);/* Calc -> Utilizarémolo para que colla todo o alto da ventá excepto os 60px do header*/
+    overflow-y: auto;/* overflow-y -> Engádelle unha barra de scroll á páxina cada vez que o necesite */
+
+    left: 100%;/* left 100% -> para esconder o menú mentras non esté activo */
+    transition: left 0.25s;
+  }
+
+  .nav-menu-item{
+    line-height: 70px;
+  }
+
+  .nav-menu-link{
+    color: #2779a7;
+  }
+
+  .nav-menu-link:hover{
+    background: none;
+    color: lightskyblue;
+  }
+
+  .nav-desplegable{
+    display: block;
+    line-height: 60px;
+  }
+
+  .nav-menu_visible{
+    left: 0%;
+  }
+}

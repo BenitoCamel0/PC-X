@@ -1,0 +1,104 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<modulos>
+  <modulo nombre = "Sistemas informaticos">
+    <temas>
+      <tema nombre = "1- Presentacion del modulo">
+        <ejercicios>2</ejercicios>
+      </tema>
+
+      <tema nombre = "2- Hardware de los Sistemas Informaticos">
+        <ejercicios>18</ejercicios>
+      </tema>
+
+      <tema nombre = "3- Configuracion y adminitracion de Sistemas Operativos">
+        <ejercicios>10</ejercicios>
+      </tema>
+
+      <tema nombre = "4- Conexion de sistemas de red">
+        <ejercicios>7</ejercicios>
+      </tema>
+    
+      <tema nombre = "5- Sistemas Operativos en red. Gestion de recursos">
+        <ejercicios>5</ejercicios>
+      </tema>
+    </temas>
+  </modulo> 
+  <modulo nombre = "Programacion">
+    <temas>
+      <tema nombre = "1- Representacion interna de los datos">
+        <ejercicios>1</ejercicios>
+      </tema>
+
+      <tema nombre = "2- Java, elementos del lenguaje">
+        <ejercicios>20</ejercicios>
+      </tema>
+
+      <tema nombre = "3- Control de Flujo">
+        <ejercicios>15</ejercicios>
+      </tema>
+
+      <tema nombre = "4- Arrays">
+        <ejercicios>13</ejercicios>
+      </tema>
+
+      <tema nombre = "5- Objetos, conceptos basicos">
+        <ejercicios>14</ejercicios>
+      </tema>
+
+      <tema nombre = "6- Excepciones">
+        <ejercicios>10</ejercicios>
+      </tema>
+
+      <tema nombre = "7- Colecciones">
+        <ejercicios>7</ejercicios>
+      </tema>
+
+      <tema nombre = "8- Flujos de E/S - Ficheros">
+        <ejercicios>3</ejercicios>
+      </tema>
+      
+      <tema nombre = "9- Librerias">
+        <ejercicios>1</ejercicios>
+      </tema>
+
+      <tema nombre = "10- Acceso a bases de datos">
+        <ejercicios>2</ejercicios>
+      </tema>
+
+      <tema nombre = "11- Entornos graficos. JavaFX">
+        <ejercicios></ejercicios>
+      </tema>
+    </temas>
+  </modulo>
+  <modulo nombre = "Lenguaje de Marcas">
+    <temas>
+      <tema nombre = "1- Introduccion a HTML y CSS">
+        <ejercicios>5</ejercicios>
+      </tema>
+
+      <tema nombre = "2- Formularios, tablas y estrurctura en HTML. Modelo de cajas">
+        <ejercicios>5</ejercicios>
+      </tema>
+
+      <tema nombre = "3- Modelo de cajas y diseño web con CSS">
+        <ejercicios>6</ejercicios>
+      </tema>
+
+      <tema nombre = "4- XML y otros lenguajes de marcas">
+        <ejercicios>8</ejercicios>
+      </tema>
+
+      <tema nombre = "5- Introduccion a JavaScript">
+        <ejercicios>1</ejercicios>
+      </tema>
+
+      <tema nombre = "6- DTD">
+        <ejercicios>5</ejercicios>
+      </tema>
+
+      <tema nombre = "7- XSD">
+        <ejercicios>3</ejercicios>
+      </tema>
+    </temas>  
+  </modulo>  
+</modulos>
